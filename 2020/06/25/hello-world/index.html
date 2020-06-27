@@ -15,7 +15,7 @@
     <script type="text/javascript">
         // Data Center
         var DC = {
-            reward:	true,
+            reward:	false,
             lv: JSON.parse('{"enable":false,"app_id":null,"app_key":null,"icon":true}'),
             v: JSON.parse('{"enable":false,"appid":null,"appkey":null,"notify":true,"verify":true,"placeholder":"give me some sugers plz...","avatar":"wavatar"}'),
             g: JSON.parse('{"enable":false,"lazy":true,"owner":"codefine","repo":"gitment","oauth":{"client_id":null,"client_secret":null},"perPage":10}'),
@@ -106,6 +106,12 @@
                 </a>
               </li>
             
+              <li>
+                <a href="/img/wechat.jpg" target="_blank">
+                  <i class="icon icon-lg icon-wechat"></i>
+                </a>
+              </li>
+            
         </ul>
         
       </div>
@@ -121,16 +127,9 @@
             </li>
         
             <li class="">
-              <a href="/categories"  >
-                <i class="icon icon-lg icon-th-list"></i>
-                分类
-              </a>
-            </li>
-        
-            <li class="">
-              <a href="/tags"  >
+              <a href="/img/jianli.pdf" target="_blank" >
                 <i class="icon icon-lg icon-tags"></i>
-                标签
+                个人简历
               </a>
             </li>
         
@@ -142,16 +141,9 @@
             </li>
         
             <li class="">
-              <a href="/custom"  >
+              <a href="/img/gzh.jpg" target="_blank" >
                 <i class="icon icon-lg icon-plus-square"></i>
                 更多
-              </a>
-            </li>
-        
-            <li class="">
-              <a href="https://www.zhihu.com/people/shi-sheng-lun-hui" target="_blank" >
-                <i class="icon icon-lg icon-"></i>
-                知乎
               </a>
             </li>
         
@@ -267,12 +259,6 @@
 </blockquote>
 
         
-            <div class="page-reward">
-    <a id="rewardBtn" href="javascript:;" class="page-reward-btn waves-effect waves-circle waves-light">赏</a>
-</div>
-
-            
-        
         <div class="post-footer">
             
             <div class="page-share-wrap">
@@ -343,33 +329,6 @@
     
 </article>
 
-    <div id="reward" class="page-modal reward-lay">
-    <a class="close" href="javascript:;"><i class="icon icon-close"></i></a>
-    <h3 class="reward-title">
-        <i class="icon icon-quote-left"></i>
-        我们一起来让这个世界有趣一点
-        <i class="icon icon-quote-right"></i>
-    </h3>
-    <div class="reward-content">
-        
-        <div class="reward-code">
-            <img id="rewardCode" src="/img/reward-wechat.jpg" alt="打赏二维码">
-        </div>
-        
-        <label class="reward-toggle">
-            <input id="rewardToggle" type="checkbox" class="reward-toggle-check"
-                data-wechat="/img/reward-wechat.jpg" data-alipay="/img/reward-alipay.jpg">
-            <div class="reward-toggle-ctrol">
-                <span class="reward-toggle-item wechat">微信</span>
-                <span class="reward-toggle-label"></span>
-                <span class="reward-toggle-item alipay">支付宝</span>
-            </div>
-        </label>
-        
-    </div>
-</div>
-
-    
 
 </div>
 
